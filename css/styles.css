@@ -147,8 +147,9 @@ color: #2e2f42;
 /* ========= PORTFOLIO STYLES ========= */
 
 .title-portfolio {
+        text-transform: capitalize;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -179,7 +180,7 @@ color: #2e2f42;
             font-size: 18px;
             line-height: 1.17;
             letter-spacing: 0.03em;
-            text-transform: uppercas;
+            text-transform: uppercase;
             color: #4d5ae5;
 }
 
