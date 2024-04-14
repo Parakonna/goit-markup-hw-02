@@ -10,12 +10,16 @@ a {
 
 button {
     cursor: pointer;
-    font-family: inherit;
 }
+
  body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
+ }
+
+ .accent-color {
+     color: #4D5AE5;
  }
 
  /* ========= HEARD STYLES ========= */
@@ -45,13 +49,7 @@ font-family: "Raleway", sans-serif;
     color: #404bbf;
 }
 
-.menu-link:active {
-    border-radius: 2px;
-        width: 48px;
-        height: 4px;
-        background: #404bbf;
-}
-  .page-adress {
+.page-adress {
     font-style: normal;
   }
 
@@ -73,21 +71,20 @@ font-family: "Raleway", sans-serif;
         line-height: 1.07143;
         letter-spacing: 0.02em;
         text-align: center;
-        color: #ffffff;
 }
  
 .button-hero {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.04em;
         color: #ffffff;
-        border-radius: 4px;
-            padding: 16px 32px;
-            width: 169px;
-            height: 56px;
-            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-                background: #4d5ae5;
+        background-color: #4d5ae5;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+background-color: #404bbf;
+    color: #ffffff;;
 }
 
 /* ========= BENEFITS STYLES ========= */
