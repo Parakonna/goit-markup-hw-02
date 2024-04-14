@@ -25,11 +25,12 @@ button {
  /* ========= HEARD STYLES ========= */
 .page-logo {
 font-family: "Raleway", sans-serif;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5  
 }
  
 .menu-link {
@@ -40,8 +41,8 @@ font-family: "Raleway", sans-serif;
         color: #2e2f42;
 }
 
-.text-web {
-     color: #4d5ae5;
+.text-studio {
+    color: #2e2f42;
 }
 
 .menu-link:hover,
@@ -66,17 +67,23 @@ font-family: "Raleway", sans-serif;
 
 /* ========= HERO STYLES ========= */
 
+.hero {
+    background-color: #2e2f42;
+}
+
 .title-hero {
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
+        color: #ffffff;
 }
  
 .button-hero {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.04em;
         color: #ffffff;
         background-color: #4d5ae5;
 }
@@ -113,8 +120,9 @@ background-color: #404bbf;
     background: #ffffff;
 }
 .title-team {
+        text-transform: capitalize;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -162,21 +170,26 @@ color: #2e2f42;
 
 /* ========= FOOTER STYLES ========= */
 
+.footer {
+    background-color: #2e2f42;
+}
 .link-footer {
-    width: 115px;
-        height: 24px;
         font-family: "Raleway", sans-serif;
-            font-size: 18x;
-            line-height: 1.16667;
+        font-weight: 700;
+            font-size: 18px;
+            line-height: 1.17;
             letter-spacing: 0.03em;
-            text-transform: uppercas
+            text-transform: uppercas;
+            color: #4d5ae5;
 }
 
 .text-web-footer {
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 
 .text-footer {
     font-size: 18px;
-        line-height: 1.5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
